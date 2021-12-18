@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Chethana Vimukthi</title>
+        <link rel="stylesheet" href="style.css" type="text/css" >
+        <body>
+            <h1 class="title">WELCOME TO HOME SITE</h1>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="contact.html">CONTACT ME</a></li>
+                
+                </ul>
+            </div>
+            <p id="demo"></p>
+            
+            
+            
+            
+
+        
+        <script>
+            document.getElementById("demo").style.fontSize = "80px";
+            document.getElementById("demo").style.textAlign = "center";
+            document.getElementById("demo").style.color = "white";
+            document.getElementById("demo").addEventListener("mouseover", mouseOver);
+document.getElementById("demo").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+  document.getElementById("demo").style.color = "white";
+}
+
+function mouseOut() {
+  document.getElementById("demo").style.color = "black";
+}
+            {
+          let person = prompt("Please enter your name", " ");
+       if (person != null) {
+      document.getElementById("demo").innerHTML =
+      "Hello " + person + "! How Are You Today? Welcome To Home Site.";
+       }  
+}
+
+
+
+        </script>
+        </body>
+        </head>
+        </html>

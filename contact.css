@@ -1,0 +1,67 @@
+body{
+    background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(jacob_night-wallpaper-1280x1024.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.title{
+    color:rgb(9, 199, 224);
+    font-family:cambria math;
+    font-size:45px;
+    text-align:center;
+    margin-top:40px;
+    text-shadow:2px 2px red;
+    
+}
+.text{
+    font-size:30px;
+    font-family:'Courier New', Courier, monospace;
+    color:#fff;
+    margin-top:95px;
+}
+h1.text:hover{
+    color:rgb(0, 255, 255);
+    font-size:100%;
+}
+li{
+    color:#fff;
+    font-size:35px;
+    font-family:'work sans',sans-serif;
+    text-transform: uppercase;
+   
+  }
+li:hover{
+  color:rgb(255, 217, 0);
+  
+}
+
+a.two link{
+    color:rgb(255, 251, 0);
+    
+} 
+a.two:visited {
+    color:rgb(255, 255, 255);
+    
+}
+a.two:hover {
+    color:rgb(255, 251, 0);
+    font-size:120%;
+}
+a.one link{
+    color:lightblue;
+}
+a.one:visited{
+    color:rgb(25, 0, 255);
+}
+a.one:hover{
+    color:rgb(145, 251, 255);
+    font-size:150%;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    size:cover;
+    width:50%;
+  }

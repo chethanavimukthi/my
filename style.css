@@ -1,0 +1,49 @@
+body{
+    background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(assassins_creed_unity_concept_art-wallpaper-1280x1024.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.title{
+    color:rgb(9, 199, 224);
+    font-family:cambria math;
+    font-size:45px;
+    text-align:center;
+    margin-top:40px;
+    text-shadow:2px 2px red;
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    font-size:20px;
+    
+    
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li::after{
+    color: #fff;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+ 
+}
+ul li a:hover{
+    color: #08ffc1;
+    font-size:150%;
+    font-family: gabriola regular;
+}
